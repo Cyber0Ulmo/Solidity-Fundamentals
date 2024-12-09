@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ExercicioConstrutor.sol": "ExercicioUm"
+			"ExercicioUm.sol": "ExercicioUm"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"ExercicioConstrutor.sol": {
+		"ExercicioUm.sol": {
 			"keccak256": "0xf972d074502d86fd77c35cc4c65c694847b8937ce520a208b5b76a6c1bc83c62",
 			"license": "MIT",
 			"urls": [
