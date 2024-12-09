@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "currentValue",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newValue",
+						"type": "string"
+					}
+				],
+				"name": "setInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ExercicioConstrutor.sol": "ExercicioUm"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ExercicioConstrutor.sol": {
+			"keccak256": "0xf972d074502d86fd77c35cc4c65c694847b8937ce520a208b5b76a6c1bc83c62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a01b36c0dac10fe357297b08a5591c6eb2909ae2214849924591c11795a99ea8",
+				"dweb:/ipfs/QmbAGZ6PTnWFphHpYQtEXZaRZd8CzRZurM5vNVS5DR1z6g"
+			]
+		}
+	},
+	"version": 1
+}

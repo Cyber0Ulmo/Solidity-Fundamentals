@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "externalFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "externalPaybleFunction",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_um",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dois",
+						"type": "uint256"
+					}
+				],
+				"name": "externalPureFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_exemplo",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "externalViewFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "s_uint",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "constructor///"
+				},
+				"externalFunction()": {
+					"notice": "external///"
+				},
+				"externalViewFunction()": {
+					"notice": "view & pure///"
+				},
+				"publicFunction()": {
+					"notice": "public///"
+				}
+			},
+			"notice": "Interfaces, Libraries///",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PrimeiroContrato.sol": "PrimeiroContrato"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PrimeiroContrato.sol": {
+			"keccak256": "0xc3c2fe162fd20e4a5f5008012b7554a50c04af3d5f0190e49b8132faa6b83426",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a67d326c2555db1785216b2b03b4a469e89e04ea75a9e6c952e0601de108af6",
+				"dweb:/ipfs/QmbEdYRvwaWVnbEwMn4Jsy8UAbGtiveJ5d5DA2Uq3HTT2i"
+			]
+		}
+	},
+	"version": 1
+}
