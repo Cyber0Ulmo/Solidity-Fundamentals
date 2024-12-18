@@ -11,17 +11,17 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "getInfo",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "currentValue",
+						"name": "newInfo",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"name": "ExercicoEvento_setInfoChanged",
+				"type": "event"
 			},
 			{
 				"inputs": [
@@ -50,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ExercicioCondicional.sol": "ExercicioConstrutor"
+			"ExercicioEvento.sol": "ExercicioEvento"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -64,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ExercicioCondicional.sol": {
-			"keccak256": "0x83ab1c183bf15b18c6f54cb296343a6f1b8527d4ff126eaf4b3f976794eead34",
+		"ExercicioEvento.sol": {
+			"keccak256": "0x482a6c8e8704fa7d2150ce10b51e9ef20fbe0409d6256fda94e7a053747ece1e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d731a2a5a564c07f070c5c27c92192d8b173cb67cb3be50af6829e83fda3c7cf",
-				"dweb:/ipfs/QmXkm6HCyijs1JDZUesSHqCQvu3iz3UE7MxByRYJw1f2UR"
+				"bzz-raw://ed34599fc9bb32428130ffc78fdcdf2333459b821792fee967c4cacb5ab2e6e1",
+				"dweb:/ipfs/QmYacLBrUgAYo8F4habWaTERvKjTxPcUMEkF4G2qcJiXBr"
 			]
 		}
 	},
